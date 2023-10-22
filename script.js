@@ -187,7 +187,7 @@ function close(e) {
 }
 
 function initServer() {
-  ws = new WebSocket("wss://rpss.zacharyhales.repl.co:443");
+  ws = new WebSocket("wss://rpss.dogwater53.us");
   ws.addEventListener("open", open);
   ws.addEventListener("message", message);
   ws.addEventListener("close", close);
